@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Alexahills Schools – Homepage concept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="note">Design concept for discussion, not a live website. Photos, quotes and colours are placeholders to be replaced with the school’s own approved material.</div>
+
+  <header>
+    <div class="wrap">
+      <a class="logo" href="#">Alexahills Schools</a>
+      <nav>
+        <a class="hide" href="#why">Why Alexahills</a>
+        <a class="hide" href="#admissions">Admissions</a>
+        <a class="hide" href="#campuses">Campuses</a>
+        <a class="btn" href="#enquire">Book a tour</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>From sprout to legend, in a school that knows your child.</h1>
+        <p class="lead">A British and Nigerian curriculum, specialist teachers and two Lagos campuses. Come and see how every child counts.</p>
+        <div class="cta">
+          <a class="btn" href="#enquire">Book a campus tour</a>
+          <a class="btn alt" href="#admissions">How admissions work</a>
+        </div>
+      </div>
+      <div class="photo" role="img" aria-label="Placeholder for a real photograph">Placeholder: a real photo of pupils in class or at a campus event, approved for use</div>
+    </div>
+    <svg class="hills" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 70V40C150 5 280 5 420 38S700 70 860 30 1100 0 1200 25V70Z" fill="var(--bg)"/></svg>
+  </div>
+
+  <div class="wrap">
+    <div class="picker" id="picker">
+      <h2>Which campus is closer to you?</h2>
+      <div class="tabs" role="tablist">
+        <button class="tab" role="tab" aria-selected="true" data-c="amuwo">Amuwo Odofin</button>
+        <button class="tab" role="tab" aria-selected="false" data-c="okota">Okota</button>
+      </div>
+      <div class="pbody">
+        <div id="cinfo">
+          <p><b id="cname">Amuwo campus</b></p>
+          <p id="caddr">22 Eke Olere Street, off Enugwu Ukwu Community Hall, Lakeview Estate Phase 2, Amuwo Odofin</p>
+        </div>
+        <a class="btn" id="cbtn" href="#enquire">Enquire about this campus</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="why">
+    <div class="wrap">
+      <h2 class="big">What your child will learn, and who will teach them</h2>
+      <div class="grid3">
+        <div class="rule">
+          <h3>A curriculum that is both British and Nigerian</h3>
+          <p>From the Foundation Stage through Key Stages 1 and 2, with English, Mathematics, Science and PSHEE, plus African Studies.</p>
+        </div>
+        <div class="rule">
+          <h3>Specialist teachers each week</h3>
+          <p>Music, Art, Computing, French, Chinese, Physical Education and Swimming are taught by specialists.</p>
+        </div>
+        <div class="rule">
+          <h3>Values pupils can name</h3>
+          <p>Gracefulness, Excellence, Mentoring and Sociability guide daily school life. Short parent-facing wording to be agreed with staff.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="admissions">
+    <div class="wrap">
+      <h2 class="big">Applying takes four steps</h2>
+      <ol class="steps">
+        <li><b>Enquire</b><span>Choose your campus and tell us your child’s age.</span></li>
+        <li><b>Apply</b><span>Submit the form, passport photos, birth certificate and last school report.</span></li>
+        <li><b>Assessment</b><span>An entrance assessment or interview, depending on age.</span></li>
+        <li><b>Offer</b><span>We write to you with our decision and next steps.</span></li>
+      </ol>
+      <p style="margin-top:24px">
+        <a class="btn" href="#enquire">Start an enquiry</a>
+        <span style="color:var(--muted)">Session dates, assessment dates and fee guidance to be added here once management confirms them.</span>
+      </p>
+    </div>
+  </section>
+
+  <section id="campuses">
+    <div class="wrap">
+      <h2 class="big">Visit us on either campus</h2>
+      <div class="two">
+        <div class="campus">
+          <div class="photo" role="img" aria-label="Placeholder">Placeholder: Amuwo campus photo</div>
+          <div class="b">
+            <h3>Amuwo Odofin</h3>
+            <p>Lakeview Estate Phase 2</p>
+            <p>Phone and WhatsApp number for this campus</p>
+            <p><a href="#enquire">Book a tour</a></p>
+          </div>
+        </div>
+        <div class="campus">
+          <div class="photo" role="img" aria-label="Placeholder">Placeholder: Okota campus photo</div>
+          <div class="b">
+            <h3>Okota</h3>
+            <p>Ago Palace Way</p>
+            <p>Phone and WhatsApp number for this campus</p>
+            <p><a href="#enquire">Book a tour</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <h2 class="big">What parents say</h2>
+      <div class="two">
+        <blockquote>Placeholder: a short quote from a current parent, with their permission and their first name.</blockquote>
+        <blockquote>Placeholder: a second quote, ideally one from each campus.</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="enquire">
+    <div class="wrap">
+      <h2 class="big">Book a tour or ask a question</h2>
+      <form id="f">
+        <div>
+          <label for="n">Your name</label>
+          <input id="n" required>
+        </div>
+        <div>
+          <label for="c">Campus</label>
+          <select id="c">
+            <option value="amuwo">Amuwo Odofin</option>
+            <option value="okota">Okota</option>
+          </select>
+        </div>
+        <div>
+          <label for="a">Your child’s age</label>
+          <input id="a" inputmode="numeric">
+        </div>
+        <div>
+          <label for="p">Phone or WhatsApp number</label>
+          <input id="p" inputmode="tel" required>
+        </div>
+        <button class="btn" type="submit">Send enquiry</button>
+        <div id="msg" role="status"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div><b>Alexahills Schools</b><br>Nursery and primary education, Lagos</div>
+      <div><b>Amuwo Odofin</b><br>22 Eke Olere Street, Lakeview Estate Phase 2</div>
+      <div><b>Okota</b><br>20 Ohafia Street, Ago Palace Way</div>
+    </div>
+  </footer>
+
+  <div class="wa"><a class="btn" href="#enquire">Message us on WhatsApp</a></div>
+
+  <script>
+    var data = {
+      amuwo: {
+        n: "Amuwo campus",
+        a: "22 Eke Olere Street, off Enugwu Ukwu Community Hall, Lakeview Estate Phase 2, Amuwo Odofin"
+      },
+      okota: {
+        n: "Okota campus",
+        a: "20 Ohafia Street, Ago Palace Way, Okota"
+      }
+    };
+
+    var tabs = document.querySelectorAll(".tab");
+    var sel = document.getElementById("c");
+
+    function pick(k) {
+      tabs.forEach(function (t) {
+        t.setAttribute("aria-selected", t.dataset.c === k ? "true" : "false");
+      });
+
+      document.getElementById("cname").textContent = data[k].n;
+      document.getElementById("caddr").textContent = data[k].a;
+      sel.value = k;
+    }
+
+    tabs.forEach(function (t) {
+      t.addEventListener("click", function () {
+        pick(t.dataset.c);
+      });
+    });
+
+    sel.addEventListener("change", function () {
+      pick(sel.value);
+    });
+
+    document.getElementById("f").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var c = sel.options[sel.selectedIndex].text;
+      document.getElementById("msg").textContent = "Thank you. In the live site, this would go to the " + c + " admissions team, who would reply the same day.";
+    });
+  </script>
+</body>
+</html>
